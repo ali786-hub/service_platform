@@ -4,6 +4,15 @@ This file provides instructions for developers and AI coding assistants working 
 
 ---
 
+## Git Branch Workflow
+
+- Use `ali-zaman` as the default development branch for our work in this repository.
+- Check the current branch and working tree before making changes. If on `main`, switch to `ali-zaman` (create it from the current `main` commit if it does not exist) while preserving any local changes.
+- For separate tasks that need their own branch, use the `ali-zaman/<task-name>` naming pattern.
+- Do not commit directly to `main` or merge into `main` unless the user explicitly requests it.
+
+---
+
 ## 1. Source of Truth Documents
 
 Always align code changes with the specifications in `docs/` in this order:
